@@ -3,17 +3,13 @@ import Tooltip from './Tooltip';
 
 function App() {
   return (
-    <div id="main">
-      <Tooltip text="Tooltip for heading">
+    <div id="main" style={{marginTop:"500px"}}>
+      <Tooltip text="This is a tooltip">
         <h2>Hover over me</h2>
       </Tooltip>
-
-      <Tooltip text="Tooltip for paragraph">
+      <br/>
+      <Tooltip text="This is another tooltip">
         <p>Hover over me to see another tooltip</p>
-      </Tooltip>
-
-      <Tooltip text="This is a tooltip">
-        <span>This is a span</span>
       </Tooltip>
     </div>
   );
