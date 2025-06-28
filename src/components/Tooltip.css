@@ -5,14 +5,14 @@
   
   .tooltiptext {
     position: absolute;
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
     bottom: 125%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 100;
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    z-index: 1;
     white-space: nowrap;
   }
   

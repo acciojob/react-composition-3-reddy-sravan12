@@ -8,8 +8,8 @@ const Tooltip = ({ text, children }) => {
   const handleMouseEnter = () => setVisible(true);
   const handleMouseLeave = () => setVisible(false);
 
-  // Clone the child and inject props/class
-  const childWithTooltip = React.cloneElement(children, {
+  // Clone the child element to inject className and event handlers
+  return cloneElement(children, {
     className: `${children.props.className || ''} tooltip`.trim(),
     onMouseEnter: handleMouseEnter,
     onMouseLeave: handleMouseLeave,
@@ -19,9 +19,7 @@ const Tooltip = ({ text, children }) => {
         {visible && <div className="tooltiptext">{text}</div>}
       </>
     ),
-  }); 
-
-  return childWithTooltip;
+  });
 };
 
 export default Tooltip;

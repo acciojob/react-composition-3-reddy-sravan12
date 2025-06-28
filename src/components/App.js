@@ -13,8 +13,8 @@ function App() {
         <p>Hover over paragraph</p>
       </Tooltip>
 
-      <Tooltip text="Another one!">
-        <button>Hover button</button>
+      <Tooltip text="This is a tooltip">
+        <span>Some span element</span>
       </Tooltip>
     </div>
   );
