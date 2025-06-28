@@ -1,20 +1,17 @@
-// App.js
 import React from 'react';
 import Tooltip from './Tooltip';
 
 function App() {
   return (
-    <div id="main">
-      <Tooltip text="Heading tooltip">
-        <h2>Hover over heading</h2>
+    <div id="main" style={{ padding: '100px' }}>
+      <Tooltip text="Tooltip for heading">
+        <h2>Hover over me</h2>
       </Tooltip>
 
-      <Tooltip text="Paragraph tooltip">
-        <p>Hover over paragraph</p>
-      </Tooltip>
+      <br /><br />
 
-      <Tooltip text="This is a tooltip">
-        <span>Some span element</span>
+      <Tooltip text="Tooltip for paragraph">
+        <p>Hover over me to see another tooltip</p>
       </Tooltip>
     </div>
   );
