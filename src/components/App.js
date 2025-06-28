@@ -1,14 +1,14 @@
-import React from 'react';
-import Tooltip from './Tooltip';
+import React from "react";
+import Tooltip from "./Tooltip";
 
 function App() {
   return (
-    <div id="main" style={{marginTop:"500px"}}>
-      <Tooltip text="This is a tooltip">
+    <div id="main">
+      <Tooltip text="Tooltip for heading">
         <h2>Hover over me</h2>
       </Tooltip>
-      <br/>
-      <Tooltip text="This is another tooltip">
+<br/>
+      <Tooltip text="Tooltip for paragraph">
         <p>Hover over me to see another tooltip</p>
       </Tooltip>
     </div>
