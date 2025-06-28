@@ -19,7 +19,7 @@ const Tooltip = ({ text, children }) => {
         {visible && <div className="tooltiptext">{text}</div>}
       </>
     ),
-  });
+  }); 
 
   return childWithTooltip;
 };
