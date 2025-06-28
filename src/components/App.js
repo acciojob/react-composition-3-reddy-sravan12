@@ -1,5 +1,5 @@
-import React from "react";
-import Tooltip from "./Tooltip";
+import React from 'react';
+import Tooltip from './Tooltip';
 
 function App() {
   return (
